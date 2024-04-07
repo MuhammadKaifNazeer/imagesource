@@ -17,6 +17,9 @@ body {
 }
 
 .imgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 5px;
@@ -28,8 +31,7 @@ body {
 }
 
 .imgContainer img {
-  width: 100%;
-  height: 100%;
+  padding: 5px;
   border-radius: 5px;
   background-color: rgb(32, 32, 32);
 }
